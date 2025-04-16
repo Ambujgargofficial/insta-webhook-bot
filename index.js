@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 
-const VERIFY_TOKEN = 'my_custom_token'; // change this to your own token
+const VERIFY_TOKEN = 'ac4ae1d9-b73b-43eb-931b-e6ee798af2ad'; // change this to your own token
 
 app.use(bodyParser.json());
 
